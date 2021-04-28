@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 7fr 1fr;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2C2B3C;
+    border: #2C2B3C solid 1px;
+    border-radius: 10px;
+}
+
+header div {
+    width: 40%;
+}
+
+h1 {
+    width: 60%;
+    color: #E3DBDB;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li {
+    width: 10%;
+    background-color: #E3DBDB;
+    border: #E3DBDB solid 1px;
+    border-radius: 5px;
+    padding: 0.5em;
+    text-align: center;
+    color: #2C2B3C
+    ;
+
+}
