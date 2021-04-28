@@ -7,17 +7,26 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #2C2B3C;
     border: #2C2B3C solid 1px;
     border-radius: 10px;
 }
 
 header div {
-    width: 40%;
+    width: 30%;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+header > div > img {
+    border-radius: 5px;
 }
 
 h1 {
     width: 60%;
+    text-align: center;
     color: #E3DBDB;
 }
 
@@ -27,7 +36,7 @@ nav {
 
 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -40,5 +49,12 @@ li {
     text-align: center;
     color: #2C2B3C
     ;
+}
 
+li a:link {
+    color: #66CED6;
+}
+
+li a:visited {
+    color: #2C2B3C;
 }
