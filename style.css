@@ -99,4 +99,9 @@ li a:visited {
         grid-row: 1;
         grid-column: 2;
     }
+
+    ul {
+        justify-content: space-evenly;
+
+    }
 }
