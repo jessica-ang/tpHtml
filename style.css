@@ -1,0 +1,49 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+/* STYLE DU FOOTER*/
+footer {
+    background-color: #2C2B3C;
+    color:#E3DBDB;
+    text-align: center;
+    font-size:100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding:1em;
+    margin:0;
+}
+
+footer a:link {
+    color:#E3DBDB;
+}
+
+footer a:visited {
+    color:#E3DBDB;
+}
+
+/* MEDIA QUERIES 
+@media screen and (min-width: 780px){
+    footer {
+        flex-direction: column;
+        font-size:150%;
+    }
+}*/
+
+/* STYLE ARTICLES */
+
+/*STYLE DES PHOTOS */
+
+.container_photo{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+}
+
+.container_photo img {
+    max-width: 60%;
+    max-height: 60%;
+}
+
