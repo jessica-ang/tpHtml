@@ -205,7 +205,6 @@ input, label, textarea {
     ul {
         justify-content: space-evenly;
     }
-}
 
 /*page contact.html*/
 
@@ -264,4 +263,6 @@ label, #pform {
 
 #art2contact a {
     margin: 0 0.2em 0 0.2em;
+}
+
 }
