@@ -4,52 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>HTML</h2>
-    <div id="container">
-        <section>
-            <ol class="menu_page">
-                <li> <a href="#balises">Les balises</a> </li>
-                <li> <a href="#titres">Les titres</a> </li>
-                <li> <a href="#"></a> </li>
-                <li> <a href="#"></a> </li>
-                <li> <a href="#"></a> </li>
-                <li> <a href="#"></a> </li>
-                <li> <a href="#"></a> </li>
-            </ol>
-        </section>
-        <section>
-            <article id="balises">
-                <h3>Les balises</h3>
-                <p>Les balises sont toutes composées de chevrons ouvrant "<" et fermants ">". </p>
-                <p>Il en existe deux types: les balises par paires avec une balise ouvrante et une fermante et les balises orphelines qui sont autofermante.</p>
-                <img src="images/balises_paire_orpheline.png" alt="exemple de balise paire et orpheline">
-                <p>Si des balises en contiennent d'autre, elles sont appelé "parents" et les balises contenu sont appelées "enfants"</p>
-                <p>Elles peuvent être également "block" ou "inline. Les balises dite block on un renvoie automatique à la ligne et contiennent du texte ou d'autre balise alors que les balises inline ne renvoie pas automatiquement à la ligne et ne peuvent contenir que du texte ou d'autre balises inline.</p>
-                <img src="" alt="">
-            </article>
-            <article id="titres">
-                <h3>Les titres</h3>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque expedita assumenda corporis animi maxime sapiente optio error, eligendi nemo necessitatibus impedit vel exercitationem repudiandae voluptatum accusamus fugit repellat voluptate ullam. </p>
-                <img src="images/titres.png" alt="code de titres">
-            </article>
-            <article id="">
-                <h3></h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora inventore quia adipisci, aliquam quasi cupiditate, non minus quae voluptate vel repudiandae dolorem odit. Qui reprehenderit obcaecati libero reiciendis natus vero. </p>
-                <img src="" alt="">
-                <img src="" alt="">
-            </article>
-            <article id="">
-                <h3></h3>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
-                <img src="" alt="">
-                <img src="" alt="">
-            </article>
-        </section>
+    <header>
+        <div>
+            <img src="images/logo_adrar.jpg" alt="Logo ADRAR">
+        </div>
+        <h1>Le métier de développeur</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JavaScript</a></li>
+                <li><a href="api.html">API</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>HTML</h2>
+        <div id="container">
+            <section>
+                <ol class="menu_page">
+                    <li> <a href="#balises">Les balises</a> </li>
+                    <li> <a href="#titres">Les titres</a> </li>
+                    <li> <a href="#"></a> </li>
+                    <li> <a href="#"></a> </li>
+                    <li> <a href="#"></a> </li>
+                    <li> <a href="#"></a> </li>
+                    <li> <a href="#"></a> </li>
+                </ol>
+            </section>
+            <section>
+                <article id="balises">
+                    <h3>Les balises</h3>
+                    <p>Les balises sont toutes composées de chevrons ouvrant "<" et fermants ">". </p>
+                    <p>Il en existe deux types: les balises par paires avec une balise ouvrante et une fermante et les balises orphelines qui sont autofermante.</p>
+                    <div><img src="images/balises_paire_orpheline.png" alt="exemple de balise paire et orpheline"></div>
+                    <p>Si des balises en contiennent d'autre, elles sont appelé "parents" et les balises contenu sont appelées "enfants"</p>
+                    <p>Elles peuvent être également "block" ou "inline. Les balises dite block on un renvoie automatique à la ligne et contiennent du texte ou d'autre balise alors que les balises inline ne renvoie pas automatiquement à la ligne et ne peuvent contenir que du texte ou d'autre balises inline.</p>
+                </article>
+                <article id="titres">
+                    <h3>Les titres</h3>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque expedita assumenda corporis animi maxime sapiente optio error, eligendi nemo necessitatibus impedit vel exercitationem repudiandae voluptatum accusamus fugit repellat voluptate ullam. </p>
+                    <div><img src="images/titres.png" alt="code de titres"></div>
+                </article>
+                <article id="">
+                    <h3></h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora inventore quia adipisci, aliquam quasi cupiditate, non minus quae voluptate vel repudiandae dolorem odit. Qui reprehenderit obcaecati libero reiciendis natus vero. </p>
+                    <div><img src="" alt=""></div>
+                    <div><img src="" alt=""></div>
+                </article>
+                <article id="">
+                    <h3></h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
+                    <div><img src="" alt=""></div>
+                    <div><img src="" alt=""></div>
+                </article>
+            </section>
+        </div>
     </div>
+    <footer>
+        <div>11 avenue de l'Europe 31520 Ramonville St Agne</div>
+        <div>05 34 31 38 10</div>
+        <div>polenumerique@adrar-formation.com</div>
+        <a href="mention_legales.html" title="Mentions Légales" >Mentions légales</a>
+        <a href="contact.html" title="contact">Contact</a>
+    </footer>
 </body>
 </html>
 
