@@ -29,39 +29,42 @@
         <div id="container">
             <section>
                 <ol class="menu_page">
-                    <li> <a href="#balises">Les balises</a> </li>
-                    <li> <a href="#titres">Les titres</a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
+                    <li> <a href="#presentation">Présentation</a> </li>
+                    <li> <a href="#variable">Les variables</a> </li>
+                    <li> <a href="#opérateur">Les opérateurs</a> </li>
+                    <li> <a href="#fonction">Les fonctions</a> </li>
                 </ol>
             </section>
             <section>
-                <article id="balises">
+                <article id="presentation">
                     <h3>Présentation</h3>
-                    <p>JavaScript est un langage de programmation interprété et front-end. JavaScript va s'exécuter du côté client (navigateur interent) et interagir avec l'interface (vue, page web). Le navigateur internet va interpréter le code contenu dan sle fichier.js lié ou à l'intérieur des balises script de la page html.</br></p>
-                    <div><img src="images/balises_paire_orpheline.png" alt="exemple de balise paire et orpheline"></div>
-                    <p>Si des balises en contiennent d'autre, elles sont appelé "parents" et les balises contenu sont appelées "enfants"</p>
-                    <p>Elles peuvent être également "block" ou "inline. Les balises dite block on un renvoie automatique à la ligne et contiennent du texte ou d'autre balise alors que les balises inline ne renvoie pas automatiquement à la ligne et ne peuvent contenir que du texte ou d'autre balises inline.</p>
+                    <p>JavaScript est un langage de programmation interprété et front-end. JavaScript va s'exécuter du côté client (navigateur interent) et interagir avec l'interface (vue, page web). Le navigateur internet va interpréter le code contenu dan sle fichier.js lié ou à l'intérieur des balises script de la page html. Pour coder en JavaScript, il faudra un éditeur de code et un navigateur internet.</br></br>Pour intégrer du code JavaScript dans une page html il faudra ajouter, dans le header d'une page html, le code ci-dessous :</p>
+                    <div><img src="images/js_presentation.png" alt="intégration du code js"></div>
                 </article>
-                <article id="titres">
-                    <h3>Les titres</h3>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque expedita assumenda corporis animi maxime sapiente optio error, eligendi nemo necessitatibus impedit vel exercitationem repudiandae voluptatum accusamus fugit repellat voluptate ullam. </p>
-                    <div><img src="images/titres.png" alt="code de titres"></div>
+                <article id="variable">
+                    <h3>Les variables</h3>
+                    <p>Les variables vont servir à stocker des valeurs. En début de programme, il faut déclarer une variable et donc la créer en la nommant. </br> Caractéristiques d'un nom de variable : lettres (obligatoires pour commencer), chiffre(s), pas d'espace, pas de ponctuation.</br></br>En JavaScript, une variable va s'écrire sous la forme suivante :</p>
+                    <div><img src="images/js_variable.png" alt="déclaration d'une variable"></div>
                 </article>
-                <article id="">
-                    <h3></h3>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora inventore quia adipisci, aliquam quasi cupiditate, non minus quae voluptate vel repudiandae dolorem odit. Qui reprehenderit obcaecati libero reiciendis natus vero. </p>
+                <article id="opérateur">
+                    <h3>Les opérateurs</h3>
+                    <p> Dans une affectation de valeur à une variable, on trouve une expression à droite du signe égal. Cette expression est un ensemble de valeurs, reliées par des opérateurs et équivalant à une seule valeur.</br>Différents types d'opérateurs :</p>
+                    <ul>
+                        <li>opérateurs numériques : + - * / ^ ()</li>
+                        <li>opérateurs alphanumériques : + (concaténation)</li>
+                        <li>opérateurs logiques : && (et) || (ou)</li>
+                    </ul>
                     <div><img src="" alt=""></div>
                     <div><img src="" alt=""></div>
                 </article>
-                <article id="">
-                    <h3></h3>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
-                    <div><img src="" alt=""></div>
-                    <div><img src="" alt=""></div>
+                <article id="fonction">
+                    <h3>Les fonctions</h3>
+                    <p>Une fonction JavaScript est un ensemble d'instructions effectuant une tâche ou calculant une valeur. Afin d'utiliser une fonction, il est nécessaire de l'avoir auparavant définie au sein de la portée dans laquelle on souhaite l'appeler. On définit une fonction avec le mot clé function suivi par le nom de la fonction, une liste d'arguments à passer à la fonction (entre parenthèses et séparés par des virgules) et les instructions JavaScript définissant la fontion (entre accolades).</br></br>Prenons l'exemple d'une fonction JavaScript qui permet d'ajouter 10 à un nombre.</p>
+                    <div id="imgfunctjs">
+                        <img class="imgfunctjs" src="images/js_script_html.png" alt="script html">
+                        <img class="imgfunctjs" src="images/js_function.png" alt="script js d'une fonction">
+                        <img class="imgfunctjs" src="images/js_function_calcul.png" alt="rendu des scripts">
+                    </div>
                 </article>
             </section>
         </div>
