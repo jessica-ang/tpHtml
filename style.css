@@ -296,7 +296,7 @@ body {
     border-radius: 10px;
     background-color: #616072;
     color: #E3DBDB;
-    height: 80vh;
+    height: 95%;
 }
 h2 {
     font-size: 3em;
@@ -321,7 +321,7 @@ article {
 ol>li>a:link, ol>li>a:visited, ol>li {
     text-decoration: none;
     color: #E3DBDB;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
 }
 ol>li:hover, ol>li>a:hover {
     color: #66CED6;
@@ -508,4 +508,19 @@ iframe {
     border-radius: 10px;
     padding: 0.1em;
     margin:0;
+}
+
+
+/* Ajout taille p */
+
+p {
+    font-size: 1.1em;
+    margin: 0.6em;
+}
+
+/* style photo api */
+
+#photo_api{
+    grid-column: 1 / 4;
+    grid-row: 1 /4;
 }

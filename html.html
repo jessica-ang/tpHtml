@@ -29,16 +29,22 @@
         <div id="container">
             <section>
                 <ol class="menu_page">
+                    <li> <a href="#intro_html">Introduction</a> </li>
                     <li> <a href="#balises">Les balises</a> </li>
                     <li> <a href="#titres">Les titres</a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
+                    <li> <a href="#emphase">Les emphases</a> </li>
+                    <li> <a href="#attributs">Les attributs</a> </li>
+                    <li> <a href="#bali_image">Les images</a> </li>
+                    <li> <a href="#bali_audio">L'audio/video</a> </li>
                 </ol>
             </section>
             <section>
+                <article id="intro_html">
+                    <h3>Introduction</h3>
+                    <p> Le sigle HTML correspond à « HyperText Markup Language » que l’on peut traduire en français par « Langage HyperTextuel à balises ». Il s’agit d’un langage informatique permettant de définir le contenu et la structure d’une page Web. De nombreuses technologies peuvent être utilisées pour définir les éléments d’une page Web, mais la base la plus minimaliste d’une page est construite en HTML. </p>
+                    <p>Le langage HTML est un langage de description sujet à interprétation. Le principe du langage est de décrire la structure et le contenu d’une page. Il va permettre de définir les différentes zones d’affichages (en-tête, corps de la page, pied de page, menu, …) et d’intégrer son contenu (texte, image, tableau, vidéo, …).</p>
+                    <p>Cette description est lue par un navigateur (Firefox, Chrome, Edge, …) qui va interpréter le code afin de l’afficher. Cela implique qu’une même page peut donc s’afficher différemment en fonction du navigateur utilisé. Avant l’arrivée des règles d’interprétation de la version 5 du langage HTML, le code non-valide n’était pas interprété de la même manière par les navigateurs. Les navigateurs, plutôt permissifs, traitaient le code même s’il n’était pas valide. Ce qui donnait parfois des résultats surprenants. Les navigateurs modernes posent aujourd’hui beaucoup moins de problèmes en utilisant des règles d’interprétation standards pour le code non-valide.</p>
+                </article>
                 <article id="balises">
                     <h3>Les balises</h3>
                     <p>Les balises sont toutes composées de chevrons ouvrant "<" et fermants ">". </p>
@@ -49,41 +55,30 @@
                 </article>
                 <article id="titres">
                     <h3>Les titres</h3>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque expedita assumenda corporis animi maxime sapiente optio error, eligendi nemo necessitatibus impedit vel exercitationem repudiandae voluptatum accusamus fugit repellat voluptate ullam. </p>
+                    <p> Les balises p permettent d’insérer un paragraphe standard. Il existe en parallèle d’autres balises de paragraphes qui ont un statut particulier, puisque les paragraphes concernés seront alors considérés comme des titres. Il s’agit des balises h1, h2, h3, h4, h5 et h6. Le h de la commande correspond à « heading » en anglais et le numéro qui suit correspond au niveau hiérarchique du titre. </p>
                     <div><img src="images/titres.png" alt="code de titres"></div>
                 </article>
-                <article id="">
-                    <h3></h3>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora inventore quia adipisci, aliquam quasi cupiditate, non minus quae voluptate vel repudiandae dolorem odit. Qui reprehenderit obcaecati libero reiciendis natus vero. </p>
-                    <div><img src="" alt=""></div>
-                    <div><img src="" alt=""></div>
+                <article id="emphase">
+                    <h3>Les emphase</h3>
+                    <p> « Emphasis » en latin, comme en anglais, signifie accent ou insistance. La traduction littérale française emphase pose un petit problème car il y a une notion d’exagération. Dans le cadre de ce cours, nous utiliserons malgré tout ce terme sans tenir compte de cet aspect péjoratif. </p>
+                    <p>Il existe donc deux balises permettant de mettre l’emphase sur une chaîne de caractères. Elles permettent d’identifier les mots importants pour les faire ressortir visuellement comme vous pouvez le faire avec un traitement de texte, mais elle apporte surtout, comme les titres, une valeur sémantique au contenu en question. Nous reviendrons plus en détail sur la sémantique dans le chapitre suivant.</p>
+                    <p>Les deux balises sont "strong" et "em" qui permettent respectivement d’appliquer une emphase forte et modérée. Par défaut, les navigateurs vont distinguer visuellement ces balises lors de l’affichage en appliquant au contenu du gras pour la première balise (strong) et de l’italique pour la deuxième (em). Mais attention, ces balises ne sont pas des balises de gras ou d’italique mais bien des balises d’emphase. Il existe effectivement des balises sans valeur sémantique pour mettre du gras "b" et de l’italique "i", mais elles ne doivent plus être utilisées aujourd’hui si vous tenez à respecter les bonnes pratiques qui préconisent l’utilisation d’un autre langage : le langage CSS pour la mise en forme d’une page Web.</p>
+                    <div><img src="images/emphases.png" alt=""></div>
                 </article>
-                <article id="">
-                    <h3></h3>
+                <article id="attributs">
+                    <h3>Les attributs</h3>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
                     <div><img src="" alt=""></div>
                     <div><img src="" alt=""></div>
                 </article>
-                <article id="">
-                    <h3></h3>
+                <article id="bali_image">
+                    <h3>Les images</h3>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
                     <div><img src="" alt=""></div>
                     <div><img src="" alt=""></div>
                 </article>
-                <article id="">
-                    <h3></h3>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
-                    <div><img src="" alt=""></div>
-                    <div><img src="" alt=""></div>
-                </article>
-                <article id="">
-                    <h3></h3>
-                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
-                    <div><img src="" alt=""></div>
-                    <div><img src="" alt=""></div>
-                </article>
-                <article id="">
-                    <h3></h3>
+                <article id="bali_audio">
+                    <h3>Les balises audios et vidéos</h3>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quidem iusto voluptate debitis. Et ullam maxime fugit assumenda quia eum reprehenderit, sequi mollitia, ab placeat exercitationem, ex dignissimos veritatis voluptate?</p>
                     <div><img src="" alt=""></div>
                     <div><img src="" alt=""></div>
@@ -100,5 +95,4 @@
     </footer>
 </body>
 </html>
-
 
