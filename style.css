@@ -86,9 +86,14 @@ nav>ul>li {
     grid-row: 2;
     grid-column: 1;
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 10% 60% 30%;
+    grid-template-rows: 1fr 20px;
+    grid-template-columns: 20px 1.3fr  1fr;
+    padding: 1em;
+}
 
+#art1form img {
+    width: 99%;
+    height: 85%;
 }
 
 form {
@@ -144,7 +149,7 @@ input, label, textarea {
     grid-row: 1;
     grid-column: 3;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 2fr 1fr;
 }
 
 #art1from {
@@ -157,8 +162,12 @@ input, label, textarea {
 }
 
 #art1form p {
-    font-size: 1vw;
-    color: #2C2B3C;
+    font-size: 1.5vw;
+    color: #E3DBDB;
+    text-align: center;
+}
+#art1form a:link, #art1form a:visited {
+    text-decoration: none;
 }
 
 #art2form {
@@ -170,11 +179,11 @@ input, label, textarea {
 }
 
 #art2form p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
     width: 100%;
     margin: 0;
-    color: #2C2B3C;
+    color: #E3DBDB;
 }
 
 
@@ -183,7 +192,7 @@ input, label, textarea {
 
 /*header des pages*/
     body {
-        grid-template-rows: 200px 4fr 75px;
+        grid-template-rows: 150px 4fr 75px;
     }
 
     header {
@@ -212,7 +221,7 @@ input, label, textarea {
     ul {
         margin-right: 1em;
     }
-}
+
 /*page contact.html*/
 
 /*section et form*/
@@ -262,13 +271,13 @@ label, #pform, fieldset p {
 }
 
 #art2form p {
-    display: none;
+    font-size: 2vw;
 }
 
 #art2form a {
     margin: 0 1em 0 0;
 }
-
+}
 /*contenu page*/
 body {
     background-color: #E3DBDB;
