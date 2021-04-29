@@ -28,19 +28,14 @@
         <div id="container">
             <section>
                 <ol class="menu_page">
-                    <li> <a href="#balises">Les balises</a> </li>
-                    <li> <a href="#titres">Les titres</a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
-                    <li> <a href="#"></a> </li>
+                    <li> <a href="#presentation_api">Présentation</a> </li>
+                    <li> <a href="#fonctionnement_api">Fonctionnement</a> </li>
                 </ol>
             </section>
             <section>
             <h2>Les API</h2>
             <article class="container_article">
-                <h3>Présentation</h3>
+                <h3 id="presentation_api">Présentation</h3>
                 <p class="explication">
                     Le terme API signifie Application Programming Interface. Il s'agit d'une interface qui permet à plusieurs applications de communiquer entre elles.
                     L'API d'une application permet un accès aux données de celle-ci. L'accès aux données se fait de façon structuré.
@@ -52,11 +47,23 @@
                 </div>
             </article>
             <article class="container_article">
-                <h3>Fonctionnement</h3>
+                <h3 id="fonctionnement_api">Fonctionnement</h3>
                 <p class="explication">
-                    Pour faire fonctionner une API, il faut un client et un serveur. Le serveur met à disposition et éxecute le programme de l'API. Le client va lui adresser une 
-                    requête.
+                    Pour faire fonctionner une API, il faut un client et un serveur. Le serveur met à disposition et éxecute le programme de l'API. 
+                    Le serveur attend qu'on lui envoie une demande sous forme de requête, executera l'API et renverra des données de façon structurées.
+                    Le client enverra une requête et recevra les données de façon brute (sans interface utilisateur) qu'il pourra alors utiliser.
+                    Ceci est transparent pour l'utilisateur qui lui restera sur l'application cliente.
+                    Aujourd'hui de nombreuses applications utilisent des API, ceci évite de redévelopper un système qui fonctionnne déjà et qui est mis à disposition.
+                    Par exemple, l'application Uber Eats va utiliser l'API de google afin de récupérer la géolocalisation de l'utilisateur. Ceci est totalement transparent pour 
+                    l'utilisateur qui restera dans son application Uber Eats.
+                    Pour pouvoir être utilisée sans difficulté, les API ont une architecture de type REST ou SOAP. Aujourd'hui, la majorité ont une architecture de 
+                    type REST. Chaque type d'architecture impose des contraintes.
+                    <br/>
+                    Voici un schéma de fonctionnement des API
                 </p> 
+                <div class="container_photo">
+                    <img src="images/api_schema.png" alt="schema api" id="photo_api"/>
+                </div>
             </article>
             </section>
         </div>
