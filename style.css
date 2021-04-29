@@ -6,6 +6,21 @@ body {
     padding: 0;
 }
 
+/*Tous les liens*/
+
+a:link {
+    color: #403F4C;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2C2B3C;
+    text-decoration: none;
+
+}
+
+/*header des pages*/
+
 header {
     grid-row: 1;
     grid-column: 1;
@@ -59,26 +74,15 @@ li {
     border: #E3DBDB solid 1px;
     border-radius: 5px;
     padding: 0.5em;
-    font-size: 1vw;
+    font-size: 1.2vw;
     text-align: center;
     color: #2C2B3C
     ;
 }
 
-li a:link {
-    color: #403F4C;
-    text-decoration: none;
-}
-
-li a:visited {
-    color: #2C2B3C;
-    text-decoration: none;
-
-}
-
 /*page contact.html*/
 
-/*fieldset de la section*/ 
+/*section et form*/
 
 section {
     grid-row: 2;
@@ -93,9 +97,11 @@ form {
     grid-column: 2 / 3;
 }
 
+/*fieldset de la section*/ 
+
 fieldset {
-    height: 75%;
-    margin: 2em;
+    height: 90%;
+    margin: 4em 2em 2em 2em;
     font-size: 1vw;
     border-radius: 5px;
     background-color: #E3DBDB;
@@ -103,19 +109,24 @@ fieldset {
 
 input, label, textarea {
     margin: 1em;
+    padding: 0.4em;
     border-radius: 5px;
 }
 
 .radio input {
-    margin-right: 0.2em;
+    margin: 1em 0.1em 1.5em 1.5em;
 }
 
 .radio label {
-    margin-left: 0.2em;
+    margin: 1em 0.2em 1.5em 0;
 }
 
 #pform{
-    margin: 0 0 0 0.8em;
+    margin: 0.4em 0 0.4em 1em;
+}
+
+#sub {
+    margin-top: 4em;
 }
 
 /*article de la section*/
@@ -123,7 +134,35 @@ input, label, textarea {
 #art1contact {
     grid-row: 1;
     grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em 0em 1em;
 }
+
+#art1contact p {
+    font-size: 1vw;
+}
+
+#art2contact {
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#art2contact p {
+    font-size: 1vw;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
 
 
 
